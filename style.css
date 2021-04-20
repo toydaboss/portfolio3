@@ -43,13 +43,13 @@ li a {
 }
 .landing-text{
     font-family: 'Lobster', cursive;
-    font-size: 2em;
+    font-size: 4em;
     font-style: italic;
     text-align: center;
 }
 .landing-text h6{
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 27px;
     font-weight: 500;
     margin: 2em auto;
     color:#7fff00;
@@ -75,8 +75,9 @@ li a {
     margin-left: 3em;
     margin-bottom: 3em;
 }
-.about h2{
-    margin: 1em 10px;
+.about h2 {
+  margin: 1em auto;
+  font-size: 3em;
 }
 .about-detail{
   display: flex;
@@ -94,9 +95,7 @@ li a {
   margin: 4em auto;
 }
 .skill{
-
     width: 100%;
-
     display: flex;
     flex-direction: column;
     margin-left: 3em;
@@ -107,8 +106,12 @@ li a {
   justify-content: space-between;
   margin: 1em auto;
 }
-.skill-detail h2{
-  margin: 1em 10px;
+.skill h3{
+  margin: 2em 6em;
+}
+.skill h2 {
+  margin: 1em auto;
+  font-size: 3em;
 }
 .skill-detail img{
   width: 300px;
@@ -121,9 +124,7 @@ li a {
   margin: 4em auto;
 }
 .work{
-
     width: 100%;
-
     display: flex;
     flex-direction: column;
     margin-left: 3em;
@@ -134,8 +135,12 @@ li a {
   justify-content: space-between;
   margin: 1em auto;
 }
-.work-detail h2{
-  margin: 1em 10px;
+.work h3{
+  margin: 2em 6em;
+} 
+.work h2 {
+  margin: 1em auto;
+  font-size: 3em;
 }
 .work-detail img{
   width: 300px;
@@ -152,7 +157,7 @@ li a {
   width: 100%;
   margin: 2em auto;
   border-radius: 10px;
-  padding: 2em;
+  padding: 2em 4em;
 }
 .social ul{
   display: flex;
@@ -168,7 +173,6 @@ li a {
 }
 @media only screen and (max-width: 600px){
   .nav{
-
     justify-content: center;
 }
   
@@ -178,7 +182,16 @@ li a {
   justify-content: space-between;
   margin-right: 0;
 }
-  
+.landing-text{
+  font-size: 2em;
+}
+.landing-text h6{
+  font-size: 18px;
+}
+.bg{
+  padding: 2em;
+}
+
   .about-detail{
     flex-direction: column;
     align-items: center;
@@ -193,6 +206,7 @@ li a {
       align-items: center;
   }
   .skill h3{
+    margin: 1em auto;
     text-align: center;
   }
   .skill-detail p{
@@ -205,6 +219,7 @@ li a {
     
   }
   .work h3{
+    margin: 1em auto;
     text-align: center;
   }
   .work-detail p {
